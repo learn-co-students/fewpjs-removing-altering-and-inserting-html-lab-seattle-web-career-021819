@@ -3,5 +3,6 @@ main.remove()
 
 
 const newHeader = document.createElement('h1');
+newHeader.innerText = "YOUR-NAME is the champion!";
 newHeader.id = 'victory';
-newHeader.innerHTML = "Anders is the champion!";
+document.body.appendChild(newHeader);
